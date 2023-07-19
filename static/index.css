@@ -1,0 +1,25 @@
+pre,
+code {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 14px;
+    white-space: break-spaces;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.line {
+    display: none;
+}
+
+.code {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 0 0 128px;
+}
+
+.code-wrapper {
+    border: 1px solid rgb(255, 180, 255);
+}

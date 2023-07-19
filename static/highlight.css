@@ -1,0 +1,1060 @@
+.hljs {
+    display: block;
+    overflow-x: auto;
+    color: inherit;
+}
+
+.theme-light {
+    --hl-yellow: #b58900;
+    --hl-green: #859900;
+    --hl-red: #dc322f;
+    --hl-orange: #cb5b16;
+    --hl-blue: #268bd2;
+    --hl-cyan: #2aa198;
+    --hl-eggshell: #eee8d5;
+    --hl-purple: #6c71c4;
+    --hl-pink: #d33682;
+    --hl-dark-green: #859900;
+    --hl-dark-blue-1: #268bd2;
+    --hl-dark-blue-2: #268bd2;
+    --hl-dark-blue-3: #268bd2;
+    --hl-gray-0: #767676;
+    --hl-gray-1: #839496;
+    --hl-gray-2: #93a1a1;
+    --hl-gray-3: #657b83;
+    --hl-gray-4: #586e75;
+    --hl-gray-5: #2b3750;
+}
+
+.theme-light .hljs-comment,
+.theme-light .hljs-quote,
+.theme-light .hljs-variable {
+    color: #008000;
+}
+
+.theme-light .hljs-keyword,
+.theme-light .hljs-selector-tag,
+.theme-light .hljs-built_in,
+.theme-light .hljs-name,
+.theme-light .hljs-tag {
+    color: #0000ff;
+}
+
+.theme-light .hljs-string,
+.theme-light .hljs-title,
+.theme-light .hljs-section,
+.theme-light .hljs-attribute,
+.theme-light .hljs-literal,
+.theme-light .hljs-template-tag,
+.theme-light .hljs-template-variable,
+.theme-light .hljs-type {
+    color: #a31515;
+}
+
+.theme-light .hljs-number {
+    color: #09885a;
+}
+
+.theme-light .hljs-deletion,
+.theme-light .hljs-selector-attr,
+.theme-light .hljs-selector-pseudo,
+.theme-light .hljs-meta {
+    color: #2b91af;
+}
+
+.theme-light .hljs-doctag {
+    color: #808080;
+}
+
+.theme-light .hljs-attr {
+    color: #0451a5;
+}
+
+.theme-light .hljs-symbol,
+.theme-light .hljs-bullet,
+.theme-light .hljs-link {
+    color: #00b0e8;
+}
+
+.theme-light .hljs-emphasis {
+    font-style: italic;
+}
+
+.theme-light .hljs-strong {
+    font-weight: bold;
+}
+
+.theme-light .hljs-addition {
+    color: #22863a;
+    background: rgba(155, 185, 85, 0.2);
+}
+
+.theme-light .hljs-deletion {
+    color: #b31d28;
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.theme-light .hl-source,
+.theme-light .hl-text {
+    color: var(--hl-gray-3);
+}
+
+.theme-light .hl-comment,
+.theme-light .hl-meta.hl-documentation {
+    color: var(--hl-gray-0);
+}
+
+.theme-light .hl-string {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-punctuation.hl-definition.hl-string {
+    color: var(--hl-gray-1);
+}
+
+.theme-light .hl-constant.hl-character.hl-escape {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-constant {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-constant.hl-language {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-constant.hl-numeric {
+    color: var(--hl-purple);
+}
+
+.theme-light .hl-constant.hl-character {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-constant.hl-other {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-meta.hl-preprocessor {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-variable {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-variable.hl-function {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-variable.hl-language {
+    color: var(--hl-pink);
+}
+
+.theme-light .hl-punctuation.hl-definition.hl-variable {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-keyword.hl-operator {
+    color: var(--hl-gray-3);
+}
+
+.theme-light .hl-keyword {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-keyword.hl-import,
+.theme-light .hl-keyword.hl-include {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-keyword.hl-class {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-keyword.hl-other.hl-new {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-keyword.hl-other.hl-special-method {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-storage {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-storage.hl-modifier {
+    color: var(--hl-gray-4);
+}
+
+.theme-light .hl-storage.hl-type {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-entity.hl-name {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-entity.hl-name.hl-tag {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-entity.hl-other.hl-inherited-class {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-entity.hl-other.hl-attribute-name {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-support.hl-function {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-support.hl-function.hl-construct {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-support.hl-type.hl-exception {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-support.hl-type,
+.theme-light .hl-support.hl-class {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-support.hl-constant.hl-color {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-punctuation.hl-section.hl-braces {
+    color: var(--hl-gray-3);
+}
+
+.theme-light .hl-punctuation.hl-section.hl-block {
+    color: var(--hl-gray-3);
+}
+
+.theme-light .hl-punctuation.hl-section.hl-parens {
+    color: var(--hl-gray-3);
+}
+
+.theme-light .hl-punctuation.hl-section.hl-group {
+    color: var(--hl-gray-3);
+}
+
+.theme-light .hl-punctuation.hl-section.hl-brackets {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-punctuation.hl-separator.hl-continuation {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-punctuation.hl-definition.hl-tag {
+    color: var(--hl-gray-2);
+}
+
+.theme-light .hl-invalid {
+    background: var(--hl-bg-red);
+}
+
+.theme-light .hl-source.hl-scss .hl-invalid.hl-deprecated.hl-color.hl-w3c-non-standard-color-name {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-source.hl-scss .hl-keyword.hl-control.hl-untitled {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-source.hl-less .hl-keyword.hl-control.hl-html.hl-elements {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-source.hl-scss .hl-entity.hl-name.hl-tag,
+.theme-light .hl-source.hl-css .hl-entity.hl-name.hl-tag,
+.theme-light .hl-source.hl-less .hl-entity.hl-name.hl-tag {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-source.hl-scss .hl-entity.hl-other.hl-class,
+.theme-light .hl-source.hl-css .hl-entity.hl-other.hl-class,
+.theme-light .hl-source.hl-less .hl-entity.hl-other.hl-class {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-source.hl-scss .hl-entity.hl-other.hl-id,
+.theme-light .hl-source.hl-css .hl-entity.hl-other.hl-id,
+.theme-light .hl-source.hl-less .hl-entity.hl-other.hl-id {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-source.hl-scss .hl-entity.hl-other.hl-pseudo-class,
+.theme-light .hl-source.hl-css .hl-entity.hl-other.hl-pseudo-class,
+.theme-light .hl-source.hl-less .hl-entity.hl-other.hl-pseudo-class {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-source.hl-scss .hl-entity.hl-other.hl-pseudo-element,
+.theme-light .hl-source.hl-css .hl-entity.hl-other.hl-pseudo-element,
+.theme-light .hl-source.hl-less .hl-entity.hl-other.hl-pseudo-element {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-source.hl-ruby .hl-keyword.hl-other.hl-special-method {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-source.hl-ruby .hl-variable.hl-other.hl-constant {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-source.hl-ruby .hl-constant.hl-other.hl-symbol {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-source.hl-ruby .hl-punctuation.hl-definition.hl-constant {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-source.hl-php .hl-meta.hl-array .hl-support.hl-function.hl-construct {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-source.hl-c .hl-entity.hl-name.hl-function.hl-preprocessor,
+.theme-light .hl-source.hl-c\2b\2b .hl-entity.hl-name.hl-function.hl-preprocessor {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-source.hl-c .hl-meta.hl-preprocessor.hl-macro,
+.theme-light .hl-source.hl-c\2b\2b .hl-meta.hl-preprocessor.hl-macro {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-source.hl-c .hl-meta.hl-preprocessor.hl-include .hl-punctuation.hl-definition.hl-string,
+.theme-light .hl-source.hl-c\2b\2b .hl-meta.hl-preprocessor.hl-include .hl-punctuation.hl-definition.hl-string {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-source.hl-c\2b\2b .hl-storage.hl-modifier {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-text.hl-tex .hl-punctuation.hl-section.hl-group,
+.theme-light .hl-text.hl-latex .hl-punctuation.hl-section.hl-group {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-text.hl-tex .hl-punctuation.hl-definition.hl-arguments,
+.theme-light .hl-text.hl-latex .hl-punctuation.hl-definition.hl-arguments {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-text.hl-tex .hl-meta.hl-group.hl-braces,
+.theme-light .hl-text.hl-latex .hl-meta.hl-group.hl-braces {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-text.hl-tex .hl-variable.hl-parameter.hl-function,
+.theme-light .hl-text.hl-latex .hl-variable.hl-parameter.hl-function {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-text.hl-tex .hl-string.hl-other.hl-math,
+.theme-light .hl-text.hl-latex .hl-string.hl-other.hl-math {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-text.hl-tex .hl-constant.hl-other.hl-math,
+.theme-light .hl-text.hl-latex .hl-constant.hl-other.hl-math {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-text.hl-tex .hl-constant.hl-character.hl-math,
+.theme-light .hl-text.hl-latex .hl-constant.hl-character.hl-math {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-text.hl-tex .hl-punctuation.hl-definition.hl-constant.hl-math,
+.theme-light .hl-text.hl-latex .hl-punctuation.hl-definition.hl-constant.hl-math {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-text.hl-tex .hl-punctuation.hl-definition.hl-string,
+.theme-light .hl-text.hl-latex .hl-punctuation.hl-definition.hl-string {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-text.hl-tex .hl-variable.hl-parameter.hl-definition.hl-label,
+.theme-light .hl-text.hl-latex .hl-variable.hl-parameter.hl-definition.hl-label {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-text.hl-tex .hl-support.hl-function.hl-be,
+.theme-light .hl-text.hl-latex .hl-support.hl-function.hl-be {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-text.hl-tex .hl-support.hl-function.hl-section,
+.theme-light .hl-text.hl-latex .hl-support.hl-function.hl-section {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-text.hl-tex .hl-support.hl-function.hl-general,
+.theme-light .hl-text.hl-latex .hl-support.hl-function.hl-general {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-text.hl-tex .hl-storage.hl-type.hl-label,
+.theme-light .hl-text.hl-latex .hl-storage.hl-type.hl-label {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-text.hl-tex .hl-keyword.hl-other.hl-reference,
+.theme-light .hl-text.hl-latex .hl-keyword.hl-other.hl-reference {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-source.hl-python .hl-storage.hl-type.hl-class {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-source.hl-python .hl-storage.hl-type.hl-function {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-source.hl-python .hl-storage.hl-modifier.hl-global {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-source.hl-python .hl-support.hl-type.hl-exception {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-source.hl-shell .hl-keyword.hl-operator.hl-expansion {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-source.hl-perl .hl-support.hl-function {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-source.hl-diff .hl-meta.hl-range {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-source.hl-diff .hl-entity.hl-name.hl-section {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-source.hl-diff .hl-markup.hl-deleted {
+    color: var(--hl-gray-5);
+    background: var(--diff-remove-bg);
+}
+
+.theme-light .hl-source.hl-diff .hl-markup.hl-inserted {
+    color: var(--hl-gray-5);
+    background: var(--diff-add-bg);
+}
+
+.theme-light .hl-js .hl-variable.hl-other.hl-readwrite,
+.theme-light .hl-js .hl-variable.hl-other.hl-object,
+.theme-light .hl-js .hl-variable.hl-other.hl-constant {
+    color: var(--hl-gray-3);
+}
+
+.theme-light .hl-json .hl-key .hl-string {
+    color: var(--hl-pink);
+}
+
+.theme-light .hl-ts .hl-keyword.hl-control {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-typed-Comment {
+    color: var(--hl-gray-0);
+}
+
+.theme-light .hl-typed-PunctuationDelimiter {
+    color: var(--hl-gray-0);
+}
+
+.theme-light .hl-typed-PunctuationBracket {
+    color: var(--hl-gray-0);
+}
+
+.theme-light .hl-typed-IdentifierKeyword,
+.theme-light .hl-typed-Keyword {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-typed-IdentifierOperator {
+    color: var(--hl-gray-3);
+}
+
+.theme-light .hl-typed-Identifier {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-typed-IdentifierBuiltin {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-typed-IdentifierBuiltinType {
+    color: var(--hl-green);
+}
+
+.theme-light .hl-typed-IdentifierNull {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-typed-BooleanLiteral {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-typed-IdentifierConstant {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-typed-IdentifierMutableGlobal {
+    color: var(--hl-dark-blue-1);
+}
+
+.theme-light .hl-typed-IdentifierParameter {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-typed-IdentifierLocal {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-typed-IdentifierShadowed {
+    color: var(--hl-blue);
+}
+
+.theme-light .hl-typed-IdentifierModule,
+.theme-light .hl-typed-IdentifierNamespace {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-typed-IdentifierFunction {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-typed-IdentifierFunctionDefinition {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-typed-IdentifierMacro {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-typed-IdentifierMacroDefinition {
+    color: var(--hl-yellow);
+}
+
+.theme-light .hl-typed-IdentifierType {
+    color: var(--hl-orange);
+}
+
+.theme-light .hl-typed-IdentifierAttribute {
+    color: var(--hl-pink);
+}
+
+.theme-light .hl-typed-StringLiteral {
+    color: var(--hl-cyan);
+}
+
+.theme-light .hl-typed-StringLiteralEscape {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-typed-StringLiteralSpecial {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-typed-StringLiteralKey {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-typed-CharacterLiteral {
+    color: var(--hl-red);
+}
+
+.theme-light .hl-typed-NumericLiteral {
+    color: var(--hl-purple);
+}
+
+.theme-light .hl-typed-TagAttribute {
+    color: var(--hl-gray-2);
+}
+
+.theme-dark {
+    --hl-gray-0: #bdd4e3;
+    --hl-gray-1: #8fa1b3;
+    --hl-gray-2: #c0c5ce;
+    --hl-gray-4: #4f5b66;
+    --hl-gray-5: #96b5b4;
+    --hl-gray-6: #969896;
+    --hl-dark-green: #359448;
+    --hl-dark-blue-1: #329af0;
+    --hl-dark-blue-2: #268bd2;
+    --hl-dark-blue-3: #35a5ff;
+    --hl-dark-yellow: #ebcb8b;
+    --hl-dark-red: #bf616a;
+    --hl-blue: #72c3fc;
+    --hl-yellow: #fff3bf;
+    --hl-red: #ffb0af;
+    --hl-green-1: #d3f9d8;
+    --hl-green-2: #a3be8c;
+    --hl-purple: #b48ead;
+    --hl-orange: #d08770;
+    --hl-brown: #ab7967;
+    --hl-black: #2b303b;
+    --hl-white: #f2f4f8;
+    --hl-bg-red: #bf616a;
+    --hl-bg-dark-red: #350b10;
+    --hl-bg-dark-green: #0e2414;
+    /* Links */
+    --hl-scip-identifier: #859900;
+}
+
+.theme-dark .hljs-keyword,
+.theme-dark .hljs-literal,
+.theme-dark .hljs-symbol,
+.theme-dark .hljs-name {
+    color: #569cd6;
+}
+
+.theme-dark .hljs-link {
+    color: #569cd6;
+    text-decoration: underline;
+}
+
+.theme-dark .hljs-built_in,
+.theme-dark .hljs-type {
+    color: #4ec9b0;
+}
+
+.theme-dark .hljs-number,
+.theme-dark .hljs-class {
+    color: #b8d7a3;
+}
+
+.theme-dark .hljs-string,
+.theme-dark .hljs-meta-string {
+    color: #d69d85;
+}
+
+.theme-dark .hljs-regexp,
+.theme-dark .hljs-template-tag {
+    color: #9a5334;
+}
+
+.theme-dark .hljs-subst,
+.theme-dark .hljs-function,
+.theme-dark .hljs-title,
+.theme-dark .hljs-params,
+.theme-dark .hljs-formula {
+    color: #dcdcdc;
+}
+
+.theme-dark .hljs-comment,
+.theme-dark .hljs-quote {
+    color: #57a64a;
+}
+
+.theme-dark .hljs-doctag {
+    color: #608b4e;
+}
+
+.theme-dark .hljs-meta,
+.theme-dark .hljs-meta-keyword,
+.theme-dark .hljs-tag {
+    color: #9b9b9b;
+}
+
+.theme-dark .hljs-variable,
+.theme-dark .hljs-template-variable {
+    color: #bd63c5;
+}
+
+.theme-dark .hljs-attr,
+.theme-dark .hljs-attribute,
+.theme-dark .hljs-builtin-name {
+    color: #9cdcfe;
+}
+
+.theme-dark .hljs-section {
+    color: #ffd700;
+}
+
+.theme-dark .hljs-emphasis {
+    font-style: italic;
+}
+
+.theme-dark .hljs-strong {
+    font-weight: bold;
+}
+
+.theme-dark .hljs-bullet,
+.theme-dark .hljs-selector-tag,
+.theme-dark .hljs-selector-id,
+.theme-dark .hljs-selector-class,
+.theme-dark .hljs-selector-attr,
+.theme-dark .hljs-selector-pseudo {
+    color: #d7ba7d;
+}
+
+.theme-dark .hljs-addition {
+    background-color: #024c00;
+    color: #d9f2d8;
+}
+
+.theme-dark .hljs-deletion {
+    background-color: #4c0000;
+    color: #fecccc;
+}
+
+.theme-dark .hl-source,
+.theme-dark .hl-text {
+    color: var(--hl-gray-2);
+}
+
+.theme-dark .hl-variable.hl-parameter.hl-function {
+    color: var(--hl-gray-0);
+}
+
+.theme-dark .hl-punctuation.hl-definition {
+    color: var(--hl-gray-0);
+}
+
+.theme-dark .hl-comment,
+.theme-dark .hl-punctuation.hl-definition.hl-comment {
+    color: var(--hl-dark-green);
+}
+
+.theme-dark .hl-keyword.hl-operator {
+    color: var(--hl-dark-blue-1);
+}
+
+.theme-dark .hl-keyword {
+    color: var(--hl-dark-blue-3);
+}
+
+.theme-dark .hl-variable {
+    color: var(--hl-blue);
+}
+
+.theme-dark .hl-entity.hl-name.hl-function,
+.theme-dark .hl-meta.hl-require,
+.theme-dark .hl-support.hl-function.hl-any-method,
+.theme-dark .hl-variable.hl-function {
+    color: var(--hl-yellow);
+}
+
+.theme-dark .hl-support.hl-class,
+.theme-dark .hl-entity.hl-name.hl-class,
+.theme-dark .hl-meta.hl-class {
+    color: var(--hl-blue);
+}
+
+.theme-dark .hl-entity.hl-other.hl-inherited-class {
+    color: var(--hl-red);
+}
+
+.theme-dark .hl-keyword.hl-other.hl-special-method {
+    color: var(--hl-gray-1);
+}
+
+.theme-dark .hl-storage {
+    color: var(--hl-dark-blue-1);
+}
+
+.theme-dark .hl-support.hl-function {
+    color: var(--hl-yellow);
+}
+
+.theme-dark .hl-string,
+.theme-dark .hl-constant.hl-other.hl-symbol {
+    color: var(--hl-red);
+}
+
+.theme-dark .hl-string.hl-regexp {
+    color: var(--hl-gray-5);
+}
+
+.theme-dark .hl-constant.hl-character.hl-escape {
+    color: var(--hl-gray-5);
+}
+
+.theme-dark .hl-constant {
+    color: var(--hl-dark-blue-1);
+}
+
+.theme-dark .hl-constant.hl-numeric {
+    color: var(--hl-green-1);
+}
+
+.theme-dark .hl-constant.hl-other.hl-color {
+    color: var(--hl-gray-5);
+}
+
+.theme-dark .hl-entity.hl-name.hl-tag {
+    color: var(--hl-dark-blue-1);
+}
+
+.theme-dark .hl-entity.hl-other.hl-attribute-name {
+    color: var(--hl-blue);
+}
+
+.theme-dark .hl-entity.hl-other.hl-attribute-name.hl-id,
+.theme-dark .hl-punctuation.hl-definition.hl-entity {
+    color: var(--hl-gray-1);
+}
+
+.theme-dark .hl-meta.hl-selector {
+    color: var(--hl-purple);
+}
+
+.theme-dark .hl-markup.hl-heading,
+.theme-dark .hl-punctuation.hl-definition.hl-heading,
+.theme-dark .hl-entity.hl-name.hl-section {
+    color: var(--hl-gray-1);
+}
+
+.theme-dark .hl-keyword.hl-other.hl-unit {
+    color: var(--hl-orange);
+}
+
+.theme-dark .hl-markup.hl-raw.hl-inline {
+    color: var(--hl-green-2);
+}
+
+.theme-dark .hl-string.hl-other.hl-link {
+    color: var(--hl-dark-red);
+}
+
+.theme-dark .hl-meta.hl-link {
+    color: var(--hl-orange);
+}
+
+.theme-dark .hl-meta.hl-image {
+    color: var(--hl-orange);
+}
+
+.theme-dark .hl-markup.hl-list {
+    color: var(--hl-dark-red);
+}
+
+.theme-dark .hl-punctuation.hl-section.hl-embedded,
+.theme-dark .hl-variable.hl-interpolation {
+    color: var(--hl-brown);
+}
+
+.theme-dark .hl-source.hl-diff {
+    color: var(--hl-gray-6);
+}
+
+.theme-dark .hl-source.hl-diff .hl-meta.hl-range {
+    color: var(--hl-dark-blue-2);
+}
+
+.theme-dark .hl-source.hl-diff .hl-markup.hl-deleted {
+    color: var(--hl-white);
+    background: var(--diff-remove-bg);
+}
+
+.theme-dark .hl-source.hl-diff .hl-markup.hl-inserted {
+    color: var(--hl-white);
+    background: var(--diff-add-bg);
+}
+
+.theme-dark .hl-json .hl-key .hl-string {
+    color: var(--hl-green-2);
+}
+
+.theme-dark .hl-typed-Comment {
+    color: var(--hl-dark-green);
+}
+
+.theme-dark .hl-typed-PunctuationDelimiter {
+    color: var(--hl-gray-2);
+}
+
+.theme-dark .hl-typed-PunctuationBracket {
+    color: var(--hl-gray-2);
+}
+
+.theme-dark .hl-typed-IdentifierKeyword,
+.theme-dark .hl-typed-Keyword {
+    color: var(--hl-dark-blue-2);
+}
+
+.theme-dark .hl-typed-IdentifierOperator {
+    color: var(--hl-gray-0);
+}
+
+.theme-dark .hl-typed-Identifier {
+    color: var(--hl-blue);
+}
+
+.theme-dark .hl-typed-IdentifierFunction {
+    color: var(--hl-dark-yellow);
+}
+
+.theme-dark .hl-typed-IdentifierType {
+    color: var(--hl-gray-1);
+}
+
+.theme-dark .hl-typed-IdentifierBuiltin {
+    color: var(--hl-dark-blue-2);
+}
+
+.theme-dark .hl-typed-IdentifierBuiltinType {
+    color: var(--hl-dark-blue-2);
+}
+
+.theme-dark .hl-typed-IdentifierNull {
+    color: var(--hl-orange);
+}
+
+.theme-dark .hl-typed-BooleanLiteral {
+    color: var(--hl-orange);
+}
+
+.theme-dark .hl-typed-IdentifierConstant {
+    color: var(--hl-orange);
+}
+
+.theme-dark .hl-typed-IdentifierMutableGlobal {
+    color: var(--hl-blue);
+}
+
+.theme-dark .hl-typed-IdentifierParameter {
+    color: var(--hl-blue);
+}
+
+.theme-dark .hl-typed-IdentifierLocal {
+    color: var(--hl-blue);
+}
+
+.theme-dark .hl-typed-IdentifierShadowed {
+    color: var(--hl-blue);
+}
+
+.theme-dark .hl-typed-IdentifierModule,
+.theme-dark .hl-typed-IdentifierNamespace {
+    color: var(--hl-gray-1);
+}
+
+.theme-dark .hl-typed-IdentifierFunctionDefinition {
+    color: var(--hl-yellow);
+}
+
+.theme-dark .hl-typed-IdentifierMacro {
+    color: var(--hl-yellow);
+}
+
+.theme-dark .hl-typed-IdentifierMacroDefinition {
+    color: var(--hl-yellow);
+}
+
+.theme-dark .hl-typed-IdentifierAttribute {
+    color: var(--hl-purple);
+}
+
+.theme-dark .hl-typed-StringLiteral {
+    color: var(--hl-red);
+}
+
+.theme-dark .hl-typed-StringLiteralEscape {
+    color: var(--hl-red);
+}
+
+.theme-dark .hl-typed-StringLiteralSpecial {
+    color: var(--hl-red);
+}
+
+.theme-dark .hl-typed-StringLiteralKey {
+    color: var(--hl-red);
+}
+
+.theme-dark .hl-typed-CharacterLiteral {
+    color: var(--hl-red);
+}
+
+.theme-dark .hl-typed-NumericLiteral {
+    color: var(--hl-green-1);
+}
+
+.theme-dark .hl-typed-TagAttribute {
+    color: var(--hl-gray-3);
+}
+
+.theme-light .theme-contrast-compliant-syntax-highlighting {
+    --hl-property: #d33682;
+    --hl-string: #058356;
+    --hl-function: #886700;
+    --hl-object: #677700;
+    --hl-keyword: #c44e06;
+    --hl-type: #2178b6;
+    --hl-const-num: #5f66e0;
+    --hl-punctuation: #767676;
+    --hl-symbol: #6d6c6c;
+    --hl-comment: #767676;
+    --hl-modifier: #1626b8;
+    --hl-pink: var(--hl-property);
+    --hl-cyan: var(--hl-string);
+    --hl-yellow: var(--hl-function);
+    --hl-green: var(--hl-object);
+    --hl-orange: var(--hl-keyword);
+    --hl-blue: var(--hl-type);
+    --hl-purple: var(--hl-purple);
+    --hl-gray-0: var(--hl-comment);
+    --hl-gray-1: var(--hl-comment);
+    --hl-gray-2: var(--hl-comment);
+    --hl-gray-3: var(--hl-symbol);
+}
+
+.theme-light .theme-contrast-compliant-syntax-highlighting .hl-punctuation.hl-definition.hl-string {
+    color: var(--hl-punctuation);
+}
+
+.theme-light .theme-contrast-compliant-syntax-highlighting .hl-storage.hl-modifier {
+    color: var(--hl-modifier);
+}
+
+.theme-dark .theme-contrast-compliant-syntax-highlighting {
+    --hl-property: #eb519c;
+    --hl-string: #fb90c4;
+    --hl-function: #b58900;
+    --hl-object: #859900;
+    --hl-keyword: #329af0;
+    --hl-type: #329af0;
+    --hl-const-num: #777dec;
+    --hl-punctuation: #d66f6d;
+    --hl-symbol: #bbbbbb;
+    --hl-comment: #3ba04f;
+    --hl-other: #d08770;
+    --hl-pink: var(--hl-property);
+    --hl-yellow: var(--hl-function);
+    --hl-dark-blue-3: var(--hl-keyword);
+    --hl-dark-blue-1: var(--hl-type);
+    --hl-purple: var(--hl-const-num);
+    --hl-gray-3: var(--hl-symbol);
+    --hl-dark-green: var(--hl-comment);
+    --hl-red: var(--hl-string);
+}
+
+.theme-dark .theme-contrast-compliant-syntax-highlighting .hl-keyword.hl-other.hl-unit {
+    color: var(--hl-other);
+}
+
+.theme-dark .theme-contrast-compliant-syntax-highlighting .hl-punctuation.hl-section.hl-embedded,
+.theme-dark .theme-contrast-compliant-syntax-highlighting .hl-variable.hl-interpolation {
+    color: var(--hl-gray-2);
+}
